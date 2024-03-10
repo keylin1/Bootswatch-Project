@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Travel Diary</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="bootstrap-lux.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary static-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img src="https://assets-global.website-files.com/638429212abcc7c689d9a2ce/63c60b0a46d7cf79ae3e17a7_nav%20logo.svg" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#trips">Trips</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!--Header-->
+<section class="jumbotron jumbotron-fluid bg-light jbt-home">
+    <div class="container">
+        <h1 class="display-5">Travel Diary</h1>
+        <p class="lead">Hi! Welcome to my travel diary and gallery, where each page
+            <br> and image encapsulates the essence of my adventures around
+            <br> the globe in the year of 2024 🌇
+        </p>
+        <br>
+        <p class="lead">If you want to see more of my travel/daily adventures, don't forget to follow me on Instagram!</p>
+        <a class="btn btn-light" href="https://www.instagram.com/kylinnie/?hl=en" role="button" target="_blank">Instagram</a>
+    </div>
+</section>
+
+<!--Cards-->
+<section class="container" id="trips" style="margin-top:50px; margin-bottom: 50px;">
+    <h2>Trips</h2>
+    <br>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+            <div class="card">
+                <img src="https://i.natgeofe.com/n/36fba10c-c0de-4fd7-981a-4822c6732fc8/StPaulStreetMontreal_3x2.jpg?w=1280&h=853" class="card-img-top" alt="montreal">
+                <div class="card-body">
+                    <h5 class="card-title">Montréal</h5>
+                    <p class="card-text">Montreal, a vibrant metropolis nestled along the St. Lawrence River, entices with its harmonious blend of Old World charm, modern sophistication, and rich cultural tapestry.</p>
+                    <a href="montreal.html" class="btn btn-dark">View</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <img src="img/lasvegas.jpg" class="card-img-top" alt="lasvegas">
+                <div class="card-body">
+                    <h5 class="card-title">Las Vegas</h5>
+                    <p class="card-text">The glittering oasis in the desert, dazzles visitors with its iconic casinos, extravagant entertainment, and non-stop nightlife, earning its reputation as the ultimate playground for adults.</p>
+                    <a href="lasvegas.html" class="btn btn-dark">View</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <img src="img/shanghai.png" class="card-img-top" alt="china">
+                <div class="card-body">
+                    <h5 class="card-title">China</h5>
+                    <p class="card-text">China, a vast and diverse nation steeped in ancient history and breathtaking landscapes, captivates with its dynamic cities, rich cultural heritage, and thriving modernity.</p>
+                    <a href="#" class="btn btn-primary disabled" role="button" aria-disabled="true">Coming Soon</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--About me-->
+<section class="container" id="about" style="margin-top:30px">
+    <div class="row">
+        <div class="col-sm-5 mx-auto text-center">
+            <img src="img/me.png" alt="me" style="border-radius: 15px" height="400">
+        </div>
+
+        <div class="col-sm-7" style="margin-top: 20px;">
+            <h2>Hello my name is Ke!</h2>
+            <br>
+            <div>
+                <p>🎋I am a passionate traveler, architecture enthusiast, food connoisseur, and avid photographer</p>
+                <p>I live to immerse myself in the diverse tapestry of cultures, flavors, and sights our world offers. From wandering ancient streets adorned with breathtaking architecture to savoring the exquisite tastes of local cuisines, every journey is a kaleidoscope of experiences waiting to be captured.</p>
+                <p>Join me as I wander, taste, and click my way through the wonders of our planet, one adventure at a time.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Jumbtron Footer-->
+<section class="jumbotron text-left jbt-home" style="margin-bottom:0">
+    <div class="container" style="font-weight: 500;">
+        <p>Website by Ke Lin</p>
+        <a class="btn btn-dark" href="mailto:kelin1138@gmail.com" role="button"> Contact me</a>
+    </div>
+</section>
+  
+</body>
+</html>
